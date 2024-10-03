@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>A procura do mapa perdido</title>
+</head>
+<body>
+ <main> 
+    <div class="passo ativo " id="passso-0">
+        <img src="img/cenario-Passo0-Froresta.png" alt="Capitulo 1">
+        <p>Em uma grande floresta, um menino perde um mapa do tesouro que está escondido em uma ilha distante dali, que precisaria de um grande barco para chegar até ela, então ele vai em busca do tesouro perdido, deixado pelo seu avô que gostava de aventuras. </p> 
+     <button class="btn-proximo" data-proximo="1">Ir para a ilha</button>
+     <button class="btn-proximo" data-proximo="2">Não encontrar o mapa</button>
+    </div>
+
+     <div class="passo" id="passo-1">
+        <p>Seguindo o caminho da estrada você encontra um barco, você tem duas opções:</p> 
+        <button class="btn-proximo" data-proximo="3">Ir sozinho</button>
+        <button class="btn-proximo" data-proximo="4">Ir com um pescador experiente</button>
+    </div>
+    
+    <div class="passo" id="passo-2">
+      <img src="img/cenario-Passo1-Voltando pra a floresta.png" alt="Voltando para a floresta sem o mapa"
+        <p>você volta para floresta, sem o mapa e passa o tempo pensando se tivesse ido</p>
+    </div>
+
+      <div class="passo" id="passo-3">
+      <p>você acaba indo pelo lado errado e cai pela cachoeira</p>
+      </div>
+        
+      <div class="passo" id="passo-4">
+        <img src="img/cenario-Passo4-Aldeia.png" alt="Chegando na aldeia"
+      <p>Você consegue chegar até a ilha em segurança,Chegando a margem da ilha, você encontra uma aldeia onde tem muitas pessoas morando lá, você escolhe:</p>
+      <button class="btn-proximo" data-proximo="5">Pedir ajuda para os moradores</button>
+      <button class="btn-proximo" data-proximo="6">Tentar achar pistas pela aldeia</button>
+    </div>
+
+    <div class="passo" id="passo-5">
+      <p>Eles te guiam até uma grande montanha que é muito alta</p>
+      <button class="btn-proximo" data-proximo="7">Seguir o caminho</button>
+    </div>
+
+<div class="passo" id="passo-6">
+  <p>Você encontra apenas alguns galhos e folhas da árvores</p>
+</div>
+
+<div class="passo" id="passo-7">
+  <p>Chegando na montanha você encontra um caçador de tesouros e ele resolve te levar até onde está o mapa mas com uma condição, você resolve:</p>
+  <button class="btn-proximo" data-proximo="8">Ir com o caçador para encontrar o mapa e ajuda-lo a encontrar sua avó que mora do outro lado da montanha</button>
+  <button class="btn-proximo" data-proximo="9">Ir sozinho seguindo pistas que foram deixadas para trás por outras pessoas</button>
+</div>
+
+<div class="passo" id="passo-8">
+  <img src="img/cenario-Passo8-Casa na montanha.png" alt="Casa na montanha"
+<p>você chega até o alto da montanha onde vê uma casinha amarela com uma chaminé que é onde a avó do caçador mora, antes de vocês se despedirem ele te entrega um papel e diz que a localização do mapa está nele</p>
+<button class="btn-proximo" data-proximo="10">Ver o papel</button>
+</div>
+    
+<div class="passo" id="passo-9">
+  <img src="img/cenario-Passo1-Voltando pra a floresta.png" alt="Voltando pra casa"
+<p>Você se perde e tenta voltar para a aldeia mas, não consegue encontrar muitas coisas e resolve voltar para a floresta onde mora.</p>
+</div>
+
+<div class="passo" id="passo-10">
+<p>Onde está escrito:“Quando cruzar o rio a leste, pode descansar em uma grande construção feita de madeira, onde vinde a mim, todos os que estais cansados e eu vós aliviarei”.</p>
+<button class="btn-proximo" data-proximo="11">Atravessar o rio</button>
+</div>
+
+<div class="passo" id="passo-11">
+<img src="img/cenario-Passo11-Santuario.png" alt="santuário"
+<p>Você cruza o rio onde vê um santuário onde tem muitas arvóres em volta e apenas um mesa de pedra no centro, onde você finalmente acha o mapa onde pode achar o seu avó, concluindo assim seu objetivo</p>
+</div>
+
+ </main>
+ <script src="script.js"></script>
+</body>
+</html>
